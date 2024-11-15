@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Importing CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Importing FontAwesome -->
+    <script src="https://kit.fontawesome.com/878f969c90.js" crossorigin="anonymous"></script>
+    <!-- Importing Unicons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- Importing GoogleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Importing GoogleIcons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Coffe Brave</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <div class="btn-group">
+                <button class="header-btn language-select">
+                    <span class="btn-icon material-icons">language</span>
+                    <span class="language-option">Pt</span>
+                </button>
+                <button class="header-btn sing-up" onclick="openPopup()">
+                    <span class="btn-icon material-icons">person</span>
+                </button>
+            </div>
+            <div class="header-logo">
+                <a href="#index">
+                    <img src="./assets/images/logoBrave.png" alt="logo">
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Sobre nós</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contato</a>
+                </li>
+            </ul>
+            <div class="menu-icon">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+        </div>
+    </header>
+    <!-- Hero -->
+    <main class="hero">
+        <div class="video-container">
+            <img src="./assets/images/background.png" alt="">
+        </div>
+
+
+        <!-- Pop-up Area -->
+        <div class="login-popup">
+            <button class="close-btn" onclick="closePopup()">X</button>
+            <div class="popup-header">
+                <img class="popup-logo" src="./assets/images/cafeIconeBackground.png" alt="">
+                <h3 class="popup-title">Bem vindo de volta!</h3>
+                <p class="popup-subtitle">Insira seus dados para acessar.</p>
+            </div>
+            <div class="login-btn-group">
+                <button class="login-option apple"><img class="apple logo" src="./assets/Icons/logotipo-da-apple.png"
+                        alt=""></button>
+                <button class="login-option google"><img class="google logo" src="./assets/Icons/google.png"
+                        alt=""></button>
+                <button class="login-option facebook"><img class="facebook logo" src="./assets/Icons/facebook.png"
+                        alt=""></button>
+            </div>
+            <div class="separation">
+                <span class="separation-line"></span>
+                <p class="separation-text">ou</p>
+                <span class="separation-line"></span>
+            </div>
+            <div class="input-section">
+                <div class="email-input">
+                    <p class="email-input-title"></p>
+                    <input type="email" name="email" id="email-input">
+                </div>
+                <div class="password-input">
+                    <p class="password-input-title"></p>
+                    <input type="password" name="password" id="password-input">
+                </div>
+            </div>
+            <div class="login-options">
+                <div class="remember-chk">
+                    <input type="checkbox" name="checkbox" id="remember-password">
+                    <p class="remember-text">Lembrar-me</p>
+                </div>
+                <a href="#">Esqueci a senha</a>
+            </div>
+            <button class="login-btn">Fazer login</button>
+            <div class="singup-area">
+                <p class="singup-text">Ainda não tem uma conta?</p>
+                <a class="singup-link" href="#">Cadastre-se</a>
+            </div>
+        </div>
+    </main>
+    <script src="./script/app.js"></script>
+</body>
+
+</html>
