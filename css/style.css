@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /*brown-group*/
+    --dark-brown: #5B3A29;
+    --light-brown: #B78B6A;
+    /*green-group*/
+    --olive-green: #6C8B57;
+    --dark-green: #3C5A3B;
+    /*beige-group*/
+    --dark-beige: #D2C6A9;
+    --light-beige: #E8D8C5;
+    /*yellow-group*/
+    --golden-yellow: #C2A94C;
+    --light-yellow: #F2D96A;
+    /*blue-group*/
+    --dark-blue: #1E3A6D;
+    --light-blue: #A2C2D4;
+    /*red-group*/
+    --dark-red: #A34128;
+    --light-red: #D84F3A;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/******************************* header-page **********************************/
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    color: transparent;
+}
+
+.btn-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.header-btn {
+    border: none;
+    background-color: transparent;
+    color: var(--light-brown);
+}
+
+.language-select {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.language-select .btn-icon,
+.sing-up .btn-icon {
+    font-size: 2rem;
+}
+
+.language-option {
+    font-size: 1.2rem;
+}
+
+.header-logo img {
+    max-height: 4vh;
+    width: auto;
+    cursor: pointer;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    position: fixed;
+    right: -100%;
+    top: 8vh;
+    flex-direction: column;
+    width: 30%;
+    height: 50vh;
+    text-align: center;
+    transition: .5s ease;
+}
+
+.nav-menu.active {
+    right: 0;
+}
+
+.nav-item {
+    margin: 16px auto;
+}
+
+.nav-link {
+    transition: .5s;
+    color: var(--light-brown);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.nav-link:hover {
+    color: var(--dark-brown);
+}
+
+.menu-icon {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.menu-icon.active .line:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-icon.active .line:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.menu-icon.active .line:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+.line {
+    width: 25px;
+    height: 3px;
+    background-color: var(--light-brown);
+    transition: all .5s ease-in-out;
+    border-radius: 50px;
+}
+
+/******************************* hero-page ************************************/
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.video-container {
+    position: relative;
+    top: -8vh;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.video-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.login-popup {
+    position: fixed;
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    visibility: hidden;
+    transition: .3s ease-in;
+    transform: scale(0);
+    left: calc(50% - 200px);
+
+    /* Alinhando verticalmente */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--dark-brown);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.close-btn:hover {
+    color: var(--light-brown);
+}
+
+.popup-logo {
+    max-width: 100px;
+}
+
+.login-option .logo {
+    max-width: 50px;
+}
+
+.login-options {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.login-options a {
+    text-decoration: underline;
+}
+
+.remember-chk {
+    display: flex;
+    justify-content: center;
+}
+
+.login-btn {
+    border: none;
+    background-color: var(--dark-brown);
+    color: var(--light-beige);
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.singup-area {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.singup-link {
+    font-weight: 500;
+    color: var(--dark-brown);
+}
+
+.open-popup {
+    visibility: visible;
+    transform: scale(1);
+}
