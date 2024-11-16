@@ -1,0 +1,6 @@
+@CoffeeBrave_HostAddress = http://localhost:5261
+
+GET {{CoffeeBrave_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
