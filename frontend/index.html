@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Importing CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Importing FontAwesome -->
+    <script src="https://kit.fontawesome.com/878f969c90.js" crossorigin="anonymous"></script>
+    <!-- Importing Unicons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- Importing GoogleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Importing GoogleIcons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Coffe Brave</title>
+</head>
+
+<body>
+
+    <!---------------------------------------------------- Header ----------------------------------------------------->
+    <header>
+        <div class="header-content">
+            <div class="btn-group">
+                <button class="header-btn language-select">
+                    <span class="btn-icon material-icons">language</span>
+                    <span class="language-option">Pt</span>
+                </button>
+                <button class="header-btn sing-up" onclick="openPopup()">
+                    <span class="btn-icon material-icons">person</span>
+                </button>
+            </div>
+            <div class="header-logo">
+                <a href="#index">
+                    <img src="./assets/images/logoBrave.png" alt="logo">
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Sobre nós</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contato</a>
+                </li>
+            </ul>
+            <div class="menu-icon">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+        </div>
+    </header>
+    <!------------------------------------------------------ Hero ------------------------------------------------------->
+    <main class="hero">
+        <div class="video-container">
+            <img src="./assets/images/background.png" alt="">
+        </div>
+    </main>
+    <!------------------------------------------------ Pop-up Area -------------------------------------------------->
+    <!-- Login Pop-up -->
+    <section class="popup-area">
+        <div class="login-popup">
+            <button class="close-btn" onclick="closePopup()">X</button>
+            <div class="popup-header">
+                <img class="popup-logo" src="./assets/images/cafeIconeBackground.png" alt="">
+                <h3 class="popup-title">Bem vindo de volta!</h3>
+                <p class="popup-subtitle">Insira seus dados para acessar.</p>
+            </div>
+            <!-- Login options -->
+            <div class="login-btn-group">
+                <button class="login-option apple"><img class="apple logo" src="./assets/Icons/logotipo-da-apple.png"
+                        alt=""></button>
+                <button class="login-option google"><img class="google logo" src="./assets/Icons/google.png"
+                        alt=""></button>
+                <button class="login-option facebook"><img class="facebook logo" src="./assets/Icons/facebook.png"
+                        alt=""></button>
+            </div>
+            <div class="separation">
+                <span class="separation-line"></span>
+                <p class="separation-text">ou</p>
+                <span class="separation-line"></span>
+            </div>
+            <!-- Input area -->
+            <div class="input-section">
+                <div class="login-email input">
+                    <p class="login-email input-title">E-mail</p>
+                    <input type="email" name="email" placeholder="Escreva seu e-mail" id="email-input">
+                </div>
+                <div class="login-password input">
+                    <p class="login-password input-title">Senha</p>
+                    <input type="password" name="password" placeholder="Escreva sua senha" id="login-password-input">
+                </div>
+            </div>
+            <div class="login popup-options">
+                <div class="popup-chk">
+                    <input type="checkbox" name="checkbox" id="remember-password">
+                    <p class="checkbox-text">Lembrar-me</p>
+                </div>
+                <a href="#">Esqueci a senha</a>
+            </div>
+            <button class="login-btn popup-btn" id="login-btn">Fazer login</button>
+            <div class="singup-area">
+                <p class="singup-text">Ainda não tem uma conta?</p>
+                <a class="popup-link" href="#" onclick="openSingup()">Cadastre-se</a>
+            </div>
+        </div>
+        <!-- Sing-up Pop-up -->
+        <div class="singup-popup">
+            <button class="close-btn" onclick="closeSingup()">X</button>
+            <div class="popup-header">
+                <img class="popup-logo" src="./assets/images/cafeIconeBackground.png" alt="">
+                <h3 class="popup-title">Criar uma conta</h3>
+                <div class="login-area">
+                    <p class="popup-subtitle">Já possui uma conta?</p>
+                    <a class="popup-link" href="#">Faça login</a>
+                </div>
+            </div>
+            <div class="input-section">
+                <!-- Full name -->
+                <div class="full-name input">
+                    <div class="name-area">
+                        <p class="firts-name input-title">Nome</p>
+                        <input type="name" name="name" placeholder="Nome" id="first-name-input">
+                    </div>
+                    <div class="name-area">
+                        <p class="last-name input-title">Sobrenome</p>
+                        <input type="text" name="text" placeholder="Sobrenome" id="last-name-input">
+                    </div>
+                </div>
+                <!-- E-mail -->
+                <div class="singup-email input">
+                    <p class="sinup-email input-title">E-mail</p>
+                    <input type="email" name="email" placeholder="Escreva seu e-mail" id="singup-email-input">
+                </div>
+                <!-- Phone -->
+                <div class="singup-phone input">
+                    <p class="sinup-phone input-title">Telefone</p>
+                    <div class="phone-input-area">
+                        <input class="ddd-input" type="text" name="postal-code" placeholder="&#127463; &#127479; +55"
+                            id="postal-code-iput">
+                        <input class="phone-input" type="text" name="phone" placeholder="Digite seu telefone com DDD"
+                            id="phone-iput">
+                    </div>
+                </div>
+                <!-- Passwords -->
+                <div class="password-area">
+                    <div class="singup-password input">
+                        <p class="sing-up-password input-title">Senha</p>
+                        <input type="password" name="password" placeholder="Escreva sua senha"
+                            id="singup-password-input">
+                    </div>
+                    <div class="singup-password input">
+                        <p class="sing-up-password input-title">Confirmar senha</p>
+                        <input type="password" name="password" placeholder="Confirme a senha"
+                            id="singup-password-input-2">
+                    </div>
+                </div>
+            </div>
+            <div class="singup popup-options">
+                <div class="popup-chk">
+                    <input type="checkbox" name="checkbox" id="accept-terms">
+                    <p class="checkbox-text">Concordo com os <span class="checkbox-span">Termos e Condições</span>
+                    </p>
+                </div>
+            </div>
+            <button class="singup-btn popup-btn" id="singup-btn">Cadastrar</button>
+        </div>
+    </section>
+    <script src="./script/app.js"></script>
+</body>
+
+</html>

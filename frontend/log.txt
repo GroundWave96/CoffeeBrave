@@ -1,0 +1,2 @@
+1- Pop-up's não abrem pois estão fora do <main> 
+2- close-btn dos pop-up's sumiram
