@@ -1,1 +1,1 @@
-Coffee Brave
+CoffeeBrave
