@@ -65,3 +65,11 @@ E:\GitHub\CoffeeBrave\backend\CoffeeBrave\obj\Debug\net8.0\refint\CoffeeBrave.dl
 E:\GitHub\CoffeeBrave\backend\CoffeeBrave\obj\Debug\net8.0\CoffeeBrave.pdb
 E:\GitHub\CoffeeBrave\backend\CoffeeBrave\obj\Debug\net8.0\CoffeeBrave.genruntimeconfig.cache
 E:\GitHub\CoffeeBrave\backend\CoffeeBrave\obj\Debug\net8.0\ref\CoffeeBrave.dll
+E:\GitHub\CoffeeBrave\backend\CoffeeBrave\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\GitHub\CoffeeBrave\backend\CoffeeBrave\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\GitHub\CoffeeBrave\backend\CoffeeBrave\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\GitHub\CoffeeBrave\backend\CoffeeBrave\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\GitHub\CoffeeBrave\backend\CoffeeBrave\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\GitHub\CoffeeBrave\backend\CoffeeBrave\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\GitHub\CoffeeBrave\backend\CoffeeBrave\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\GitHub\CoffeeBrave\backend\CoffeeBrave\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

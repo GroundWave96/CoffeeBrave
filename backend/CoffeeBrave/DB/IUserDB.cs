@@ -6,6 +6,6 @@ namespace CoffeeBrave.DB {
 
         void SignUp(User user);
 
-        bool Login(User user);
+        User Login(User user);
     }
 }
