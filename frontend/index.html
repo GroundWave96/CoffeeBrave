@@ -17,14 +17,16 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <!-- Importing Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!-- Importing GoogleIcons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <title>Coffe Brave</title>
+    <title>Coffee Brave</title>
+
 </head>
 
 <body>
-
     <!---------------------------------------------------- Header ----------------------------------------------------->
     <header>
         <div class="header-content">
@@ -71,7 +73,7 @@
         <section class="about-product-area">
             <div class="product-description-area">
                 <div class="product-text">
-                    <h2 class="product-title">Nosso Café</h2>
+                    <h2 class="section-title product-title">Nosso Café</h2>
                     <p class="product-description">O Café Brave oferece aos brasileiros expatriados uma experiência
                         única e
                         autêntica, trazendo o sabor puro e inconfundível do café brasileiro. Nosso café representa o
@@ -111,11 +113,31 @@
                         </div>
                     </div>
                 </div>
-                <button class="buy-product-now">Comprar agora</button>
+                <button class="buy-product-now" onclick="window.location.href='product.html';">Comprar agora</button>
             </div>
             <div class="product-img-area">
                 <img class="coffe-package" src="./assets/images/Pacote00.png" alt="Pacote de café">
             </div>
+        </section>
+        <section class="certificates-area">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <p class="append-buttons">
+                <button class="prepend-2-slides">Prepend 2 Slides</button>
+                <button class="prepend-slide">Prepend Slide</button>
+                <button class="append-slide">Append Slide</button>
+                <button class="append-2-slides">Append 2 Slides</button>
+            </p>
         </section>
     </main>
     <!------------------------------------------------------ Footer ------------------------------------------------------->
@@ -265,7 +287,10 @@
             <button class="singup-btn popup-btn" id="singup-btn">Cadastrar</button>
         </div>
     </section>
-    <script src="./script/app.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script/app.js"></script>
+
 </body>
 
 </html>
