@@ -160,10 +160,6 @@ header {
 }
 
 /******************************* Hero-page ************************************/
-.hero {
-    display: flex;
-    flex-direction: column;
-}
 
 .video-container {
     position: relative;
@@ -181,7 +177,51 @@ header {
     object-fit: cover;
 }
 
+/******************************* Footer ************************************/
+
+footer {
+    background-color: var(--dark-brown);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 40svh;
+    gap: 100px;
+}
+
+.footer-title {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    color: var(--light-brown);
+}
+
+.footer-link {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-link {
+    color: var(--light-brown);
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 300;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-img {
+    width: 50px
+}
+
+.footer-logo {
+    width: 8svw;
+    float: right;
+}
 /******************************* PopUp-area ************************************/
+/* Login pop-up */
 
 .popup-area {
     display: flex;
@@ -293,6 +333,8 @@ header {
     font-weight: 400;
     cursor: pointer;
 }
+
+/* Sing-up pop-up */
 
 .singup-area {
     margin: 10px 0;
