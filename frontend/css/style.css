@@ -8,7 +8,7 @@
     --white: #ffffff;
     --black: #000000;
     /*grey-group*/
-    --background-grey: #F2F2F2; 
+    --background-grey: #F2F2F2;
     --light-grey: #D9D9D9;
     /*brown-group*/
     --dark-brown: #5B3A29;
@@ -203,12 +203,14 @@ footer {
 .social {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 20px;
     font-size: 2rem;
 }
 
 .fa-brands {
     color: var(--light-brown);
+    width: 2.5rem;
+    text-align: center;
 }
 
 .footer-btn {

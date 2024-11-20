@@ -123,6 +123,7 @@
 .tab-btn.active {
     background-color: var(--dark-brown);
     color: var(--light-beige);
+    font-weight: 600;
 }
 
 .tab-btn.active:hover {
@@ -144,11 +145,42 @@
     display: flex;
     background-color: var(--white);
     border-radius: 10px;
-    padding: 40px 100px;
+    padding: 50px 100px;
     box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.5);
 }
 
-.content-img {
-    width: 50%;
-    height: 250px;
+.infos {
+    width: 100%;
+}
+
+.content-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.line-description:last-child {
+    border: none;
+}
+
+.line-description {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: dashed;
+    border-width: 1.5px;
+    border-color: var(--light-brown);
+    line-height: 2.5rem;
+}
+
+.certificates-text {
+    text-align: justify;
+    margin-bottom: 1.5rem;
+    line-height: 1.8rem;
+}
+
+.certificates-topic {
+    list-style-type: disc;
+}
+
+.certificates-topic span{
+    font-weight: 500;
 }

@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     //****************************************** LOGIN ***********************************************\\
+    /*
     const loginBtn = document.querySelector("#login-btn")
     const emailInput = document.querySelector("#email-input")
     const loginPasswordInput = document.querySelector("#login-password-input")
@@ -38,8 +39,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 console.log('Resposta do servidor:', data);
             })
     });
-
+    */
     //****************************************** VERIFICA LOGIN ***********************************************\\
+    /*
     if (localStorage.Get("Token")) {
         fetch('https://localhost:7156/Authentication/IsLogged', {
             method: 'GET', // Define o método HTTP como POST
@@ -58,6 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 btn.class.add("logado")
             })
     }
+    */
 
 });
 
@@ -115,9 +118,9 @@ var swiper = new Swiper(".mySwiper", {
 //* BTN OPACITY *\\
 function updateNavButtons() {
     if (swiper.isEnd) {
-        document.querySelector('.prev').style.opacity = 0.3; 
+        document.querySelector('.prev').style.opacity = 0.3;
     } else {
-        document.querySelector('.prev').style.opacity = 1; 
+        document.querySelector('.prev').style.opacity = 1;
     }
 
     if (swiper.isBeginning) {
