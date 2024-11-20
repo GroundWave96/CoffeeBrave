@@ -94,7 +94,7 @@
 
 .buy-product-now:hover {
     border: solid 2px;
-    background-color: var(--white);
+    background-color: var(--background-grey);
     border-color: var(--dark-brown);
     color: var(--dark-brown);
 }
@@ -109,47 +109,93 @@
     border-radius: 15px;
 }
 
-/*==== Product-page ====*/
-.swiper {
-    width: 100%;
-    height: 100%;
+/*==== Swiper-page ====*/
+
+.certificates-area {
+    background-image: url(../assets/images//background-filter.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
 }
 
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
+.certificates-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    height: 450px;
+    margin-left: 100px;
+}
+
+.certificates-title {
+    color: var(--light-beige);
+    width: 100%;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.swiper-btn {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    font-size: 1.5rem;
+    width: 50px;
+    height: 50px;
+    opacity: 0.8;
+    transition: .5s all;
+
+    /* Centralizando */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 .swiper {
-    width: 100%;
-    height: 300px;
+    width: 50%;
+    height: 450px;
     margin: 20px auto;
 }
 
-.append-buttons {
-    text-align: center;
-    margin-top: 20px;
+.swiper-slide {
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
 }
 
-.append-buttons button {
-    display: inline-block;
-    cursor: pointer;
-    border: 1px solid #007aff;
-    color: #007aff;
-    text-decoration: none;
-    padding: 4px 10px;
-    border-radius: 4px;
-    margin: 0 10px;
-    font-size: 13px;
+.content-swiper {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-swiper {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo-swiper {
+    height: 60px;
+    object-fit: fill;
+    float: left;
+    margin: 10px;
+}
+
+.description-swiper {
+    width: 80%;
+    opacity: 0.9;
+    margin-top: 70px;
 }

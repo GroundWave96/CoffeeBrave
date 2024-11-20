@@ -244,6 +244,7 @@ footer {
 .popup-area {
     display: flex;
     justify-content: center;
+    letter-spacing: 0;
 }
 
 .login-popup {
