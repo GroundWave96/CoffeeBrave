@@ -66,6 +66,7 @@ let loginPopup = document.querySelector(".login-popup");
 
 function openPopup() {
     loginPopup.classList.add("open-popup");
+    singupPopup.classList.remove("open-Singup");
 }
 
 function closePopup() {
