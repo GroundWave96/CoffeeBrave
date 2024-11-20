@@ -3,40 +3,48 @@
   "WorkspaceRootPath": "E:\\GitHub\\CoffeeBrave\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|e:\\github\\coffeebrave\\backend\\coffeebrave\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|solutionrelative:coffeebrave\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|e:\\github\\coffeebrave\\backend\\coffeebrave\\db\\iuserdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|solutionrelative:coffeebrave\\db\\iuserdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|e:\\github\\coffeebrave\\backend\\coffeebrave\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|solutionrelative:coffeebrave\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|e:\\github\\coffeebrave\\backend\\coffeebrave\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|solutionrelative:coffeebrave\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|e:\\github\\coffeebrave\\backend\\coffeebrave\\db\\userdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|solutionrelative:coffeebrave\\db\\userdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|e:\\github\\coffeebrave\\backend\\coffeebrave\\models\\request\\userloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|solutionrelative:coffeebrave\\models\\request\\userloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|e:\\github\\coffeebrave\\backend\\coffeebrave\\models\\configs\\tokensettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|solutionrelative:coffeebrave\\models\\configs\\tokensettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|e:\\github\\coffeebrave\\backend\\coffeebrave\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|solutionrelative:coffeebrave\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|e:\\github\\coffeebrave\\backend\\coffeebrave\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|solutionrelative:coffeebrave\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|e:\\github\\coffeebrave\\backend\\coffeebrave\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|solutionrelative:coffeebrave\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|e:\\github\\coffeebrave\\backend\\coffeebrave\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|solutionrelative:coffeebrave\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|e:\\github\\coffeebrave\\backend\\coffeebrave\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|solutionrelative:coffeebrave\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|e:\\github\\coffeebrave\\backend\\coffeebrave\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|solutionrelative:coffeebrave\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|e:\\github\\coffeebrave\\backend\\coffeebrave\\db\\iuserdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|solutionrelative:coffeebrave\\db\\iuserdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|e:\\github\\coffeebrave\\backend\\coffeebrave\\models\\request\\userloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|solutionrelative:coffeebrave\\models\\request\\userloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|e:\\github\\coffeebrave\\backend\\coffeebrave\\coffeebrave.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|solutionrelative:coffeebrave\\coffeebrave.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|e:\\github\\coffeebrave\\backend\\coffeebrave\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|solutionrelative:coffeebrave\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4F85EFC-A22E-4E4F-A421-5203735C0BE8}|CoffeeBrave\\CoffeeBrave.csproj|e:\\github\\coffeebrave\\backend\\coffeebrave\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -50,48 +58,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserLoginRequest.cs",
-              "DocumentMoniker": "E:\\GitHub\\CoffeeBrave\\backend\\CoffeeBrave\\Models\\Request\\UserLoginRequest.cs",
-              "RelativeDocumentMoniker": "CoffeeBrave\\Models\\Request\\UserLoginRequest.cs",
-              "ToolTip": "E:\\GitHub\\CoffeeBrave\\backend\\CoffeeBrave\\Models\\Request\\UserLoginRequest.cs",
-              "RelativeToolTip": "CoffeeBrave\\Models\\Request\\UserLoginRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T04:42:29.728Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "IUserDB.cs",
               "DocumentMoniker": "E:\\GitHub\\CoffeeBrave\\backend\\CoffeeBrave\\DB\\IUserDB.cs",
               "RelativeDocumentMoniker": "CoffeeBrave\\DB\\IUserDB.cs",
               "ToolTip": "E:\\GitHub\\CoffeeBrave\\backend\\CoffeeBrave\\DB\\IUserDB.cs",
               "RelativeToolTip": "CoffeeBrave\\DB\\IUserDB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T04:02:28.761Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "E:\\GitHub\\CoffeeBrave\\backend\\CoffeeBrave\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "CoffeeBrave\\appsettings.Development.json",
-              "ToolTip": "E:\\GitHub\\CoffeeBrave\\backend\\CoffeeBrave\\appsettings.Development.json",
-              "RelativeToolTip": "CoffeeBrave\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-14T03:56:37.669Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\GitHub\\CoffeeBrave\\backend\\CoffeeBrave\\appsettings.json",
               "RelativeDocumentMoniker": "CoffeeBrave\\appsettings.json",
@@ -99,60 +87,118 @@
               "RelativeToolTip": "CoffeeBrave\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-14T03:56:20.075Z"
+              "WhenOpened": "2024-11-14T03:56:20.075Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "UserDB.cs",
               "DocumentMoniker": "E:\\GitHub\\CoffeeBrave\\backend\\CoffeeBrave\\DB\\UserDB.cs",
               "RelativeDocumentMoniker": "CoffeeBrave\\DB\\UserDB.cs",
               "ToolTip": "E:\\GitHub\\CoffeeBrave\\backend\\CoffeeBrave\\DB\\UserDB.cs",
               "RelativeToolTip": "CoffeeBrave\\DB\\UserDB.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwCcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwCgAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T03:20:10.834Z"
+              "WhenOpened": "2024-11-14T03:20:10.834Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\GitHub\\CoffeeBrave\\backend\\CoffeeBrave\\Program.cs",
               "RelativeDocumentMoniker": "CoffeeBrave\\Program.cs",
               "ToolTip": "E:\\GitHub\\CoffeeBrave\\backend\\CoffeeBrave\\Program.cs",
               "RelativeToolTip": "CoffeeBrave\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T03:29:24.242Z"
+              "OverriddenGroupName": "CoffeeBrave",
+              "WhenOpened": "2024-11-12T03:29:24.242Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "User.cs",
               "DocumentMoniker": "E:\\GitHub\\CoffeeBrave\\backend\\CoffeeBrave\\Models\\User.cs",
               "RelativeDocumentMoniker": "CoffeeBrave\\Models\\User.cs",
               "ToolTip": "E:\\GitHub\\CoffeeBrave\\backend\\CoffeeBrave\\Models\\User.cs",
               "RelativeToolTip": "CoffeeBrave\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T03:16:28.071Z"
+              "WhenOpened": "2024-11-12T03:16:28.071Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AuthenticationController.cs",
               "DocumentMoniker": "E:\\GitHub\\CoffeeBrave\\backend\\CoffeeBrave\\Controllers\\AuthenticationController.cs",
               "RelativeDocumentMoniker": "CoffeeBrave\\Controllers\\AuthenticationController.cs",
               "ToolTip": "E:\\GitHub\\CoffeeBrave\\backend\\CoffeeBrave\\Controllers\\AuthenticationController.cs",
               "RelativeToolTip": "CoffeeBrave\\Controllers\\AuthenticationController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAvwCYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "CoffeeBrave\\Controllers",
               "WhenOpened": "2024-11-12T02:54:08.989Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "E:\\GitHub\\CoffeeBrave\\backend\\CoffeeBrave\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "CoffeeBrave\\appsettings.Development.json",
+              "ToolTip": "CoffeeBrave/appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "OverriddenGroupName": "CoffeeBrave",
+              "OverriddenToolTip": "CoffeeBrave/appsettings.Development.json",
+              "WhenOpened": "2024-11-14T03:56:37.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserLoginRequest.cs",
+              "DocumentMoniker": "E:\\GitHub\\CoffeeBrave\\backend\\CoffeeBrave\\Models\\Request\\UserLoginRequest.cs",
+              "RelativeDocumentMoniker": "CoffeeBrave\\Models\\Request\\UserLoginRequest.cs",
+              "ToolTip": "E:\\GitHub\\CoffeeBrave\\backend\\CoffeeBrave\\Models\\Request\\UserLoginRequest.cs",
+              "RelativeToolTip": "CoffeeBrave\\Models\\Request\\UserLoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T04:42:29.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TokenSettings.cs",
+              "DocumentMoniker": "E:\\GitHub\\CoffeeBrave\\backend\\CoffeeBrave\\Models\\Configs\\TokenSettings.cs",
+              "RelativeDocumentMoniker": "CoffeeBrave\\Models\\Configs\\TokenSettings.cs",
+              "ToolTip": "E:\\GitHub\\CoffeeBrave\\backend\\CoffeeBrave\\Models\\Configs\\TokenSettings.cs",
+              "RelativeToolTip": "CoffeeBrave\\Models\\Configs\\TokenSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T02:50:21.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CoffeeBrave",
+              "DocumentMoniker": "E:\\GitHub\\CoffeeBrave\\backend\\CoffeeBrave\\CoffeeBrave.csproj",
+              "RelativeDocumentMoniker": "CoffeeBrave\\CoffeeBrave.csproj",
+              "ToolTip": "E:\\GitHub\\CoffeeBrave\\backend\\CoffeeBrave\\CoffeeBrave.csproj",
+              "RelativeToolTip": "CoffeeBrave\\CoffeeBrave.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-19T02:24:27.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "E:\\GitHub\\CoffeeBrave\\backend\\CoffeeBrave\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "CoffeeBrave\\Controllers\\WeatherForecastController.cs",
@@ -160,11 +206,12 @@
               "RelativeToolTip": "CoffeeBrave\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T02:51:04.581Z"
+              "WhenOpened": "2024-11-12T02:51:04.581Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "launchSettings.json",
               "DocumentMoniker": "E:\\GitHub\\CoffeeBrave\\backend\\CoffeeBrave\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "CoffeeBrave\\Properties\\launchSettings.json",
@@ -172,7 +219,8 @@
               "RelativeToolTip": "CoffeeBrave\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-12T02:46:52.118Z"
+              "WhenOpened": "2024-11-12T02:46:52.118Z",
+              "EditorCaption": ""
             }
           ]
         }

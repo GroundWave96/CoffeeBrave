@@ -25,7 +25,7 @@ namespace CoffeeBrave.DB {
             int rowsAffected = cmd.ExecuteNonQuery();
         }
 
-        public bool Login(User user) {
+        public User Login(User user) {
 
             using NpgsqlConnection connection = new NpgsqlConnection(ConnectionString);
             connection.Open();
@@ -36,9 +36,17 @@ namespace CoffeeBrave.DB {
 
             while (reader.Read() ) {
                 if (reader["email"].ToString() == user.Email && reader["senha"].ToString() == user.Password)
-                    return true;
+                {
+                    user.Id = (int)reader["id"];
+                    user.Name = reader["nome"].ToString();
+                    user.CPF = reader["cpf"].ToString();
+                    user.Phone = reader["telefone"].ToString();
+                    user.Address = reader["endereco"].ToString();
+                    user.Type = (UserType)Enum.Parse(typeof(UserType), reader["tipo_usuario"].ToString(), ignoreCase: true);
+                    return user;
+                }
             }
-            return false;
+            return null;
         }
     }
 }
