@@ -118,6 +118,7 @@
     padding: 15px;
     cursor: pointer;
     transition: background-color .3s ease;
+    user-select: none;
 }
 
 .tab-btn.active {
@@ -187,6 +188,10 @@
     font-weight: 500;
 }
 
+.methods-topic p {
+    text-align: justify;
+}
+
 .methods-topic li{
     list-style-type: decimal;
     font-weight: 500;
@@ -195,6 +200,10 @@
 
 .methods-topic li:first-child {
     margin-top: 0;
+}
+
+.tips-topic p {
+    text-align: justify;
 }
 
 .tips-topic li{

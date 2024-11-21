@@ -72,7 +72,8 @@ header {
 .btn-group {
     display: flex;
     align-items: center;
-    gap: 10px;
+    justify-content: space-between;
+    width: 100px;
 }
 
 .header-btn {
@@ -141,9 +142,10 @@ header {
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:end;
     justify-content: center;
     gap: 5px;
+    width: 100px;
 }
 
 .menu-icon.active .line:nth-child(2) {
@@ -179,8 +181,9 @@ footer {
 .footer-content {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     gap: 100px;
+    width: 70%;
 }
 
 .footer-title {
@@ -200,6 +203,10 @@ footer {
     font-weight: 300;
 }
 
+.footer-link:hover {
+    font-weight: 600;
+}
+
 .social {
     display: flex;
     flex-direction: row;
@@ -211,6 +218,31 @@ footer {
     color: var(--light-brown);
     width: 2.5rem;
     text-align: center;
+    transition: color .2s ease;
+}
+
+.fa-whatsapp:hover{
+    color: #25d366;
+}
+
+.fa-linkedin-in:hover{
+    color: #0e76a8;
+}
+
+.fa-instagram:hover{
+    color: #E1306C;
+}
+
+.fa-youtube:hover{
+    color: #FF0000;
+}
+
+.fa-square-facebook:hover{
+    color: #1877F2;
+}
+
+.fa-tiktok:hover{
+    color: #000000;
 }
 
 .footer-btn {
@@ -226,12 +258,26 @@ footer {
     background-color: var(--dark-brown);
     border-color: var(--light-brown);
     color: var(--light-brown);
+    transition: all 0.2s ease;
+}
+
+.discover-brave:hover {
+    background-color: var(--light-brown);
+    border-color: var(--light-brown);
+    color: var(--dark-brown);
 }
 
 .buy-now {
     background-color: var(--light-brown);
     border-color: var(--light-brown);
     color: var(--dark-brown);
+    transition: all 0.2s ease;
+}
+
+.buy-now:hover {
+    background-color: var(--dark-brown);
+    border-color: var(--light-brown);
+    color: var(--light-brown);
 }
 
 .footer-logo {
