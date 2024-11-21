@@ -3,11 +3,22 @@ document.addEventListener("DOMContentLoaded", () => {
     const menuIcon = document.querySelector(".menu-icon");
     const navMenu = document.querySelector(".nav-menu");
 
-
-    menuIcon.addEventListener("click", () => {
+    // Função para alternar o estado do menu
+    menuIcon.addEventListener("click", (event) => {
         menuIcon.classList.toggle('active');
         navMenu.classList.toggle('active');
+        event.stopPropagation(); // Impede que o clique no ícone seja registrado pelo documento
     });
+
+    // Fecha o menu ao clicar fora
+    document.addEventListener("click", (event) => {
+        // Verifica se o clique foi fora do menu e do ícone
+        if (!navMenu.contains(event.target) && !menuIcon.contains(event.target)) {
+            menuIcon.classList.remove('active');
+            navMenu.classList.remove('active');
+        }
+    });
+
 
     //****************************************** LOGIN ***********************************************\\
     /*
@@ -67,13 +78,13 @@ document.addEventListener("DOMContentLoaded", () => {
 //************************************** HEADER SCROLL ********************************************\\
 window.onscroll = function () { myFunction() };
 
-        function myFunction() {
-            if (document.documentElement.scrollTop > 10) {
-                document.getElementById("headerBox").className = "test";
-            } else {
-                document.getElementById("headerBox").className = "";
-            }
-        }
+function myFunction() {
+    if (document.documentElement.scrollTop > 10) {
+        document.getElementById("headerBox").className = "test";
+    } else {
+        document.getElementById("headerBox").className = "";
+    }
+}
 //************************************** LOGIN POP-UP ********************************************\\
 let loginPopup = document.querySelector(".login-popup");
 

@@ -111,17 +111,19 @@ header {
 
 .nav-menu {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     gap: 60px;
     position: fixed;
     right: -100%;
-    top: 8vh;
+    top: 0;
     flex-direction: column;
     width: 30%;
-    height: 50vh;
+    height: 100vh;
+    background: transparent;
+    backdrop-filter: blur(40px);
+    border-right: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, rgba(255, 255, 255, .2));
     text-align: center;
-    transition: .5s ease;
+    transition: .5s all;
 }
 
 .nav-menu.active {
@@ -132,11 +134,15 @@ header {
     margin: 16px auto;
 }
 
+.nav-item:first-child {
+    margin-top: 100px;
+}
+
 .nav-link {
     transition: .5s;
     color: var(--light-brown);
-    font-weight: 400;
-    font-size: 1.5rem;
+    font-weight: 500;
+    font-size: 1.6rem;
 }
 
 .nav-link:hover {
