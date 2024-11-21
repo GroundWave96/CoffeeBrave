@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Importing CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/aboutUs.css">
+    <!-- Importing FontAwesome -->
+    <script src="https://kit.fontawesome.com/878f969c90.js" crossorigin="anonymous"></script>
+    <!-- Importing Unicons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- Importing GoogleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Importing GoogleIcons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Coffee Brave</title>
+
+</head>
+
+<body>
+    <!---------------------------------------------------- Header ----------------------------------------------------->
+    <header id="headerBox">
+        <div class="header-content">
+            <div class="btn-group">
+                <button class="header-btn language-select">
+                    <span class="btn-icon material-icons">language</span>
+                    <span class="language-option">Pt</span>
+                </button>
+                <button class="header-btn sing-up" onclick="openPopup()">
+                    <span class="btn-icon material-icons">person</span>
+                </button>
+            </div>
+            <div class="header-logo">
+                <a href="index.html">
+                    <img src="./assets/images/logoBrave.png" alt="logo">
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="fa-solid fa-house"></i>
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="fa-solid fa-question"></i>
+                        FAQ
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="fa-solid fa-users-viewfinder"></i>
+                        Sobre nós
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="fa-solid fa-message"></i>
+                        Contato
+                    </a>
+                </li>
+            </ul>
+            <div class="menu-icon">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+        </div>
+    </header>
+    <!------------------------------------------------ Pop-up Area -------------------------------------------------->
+    <!-- Login Pop-up -->
+    <section class="popup-area">
+        <div class="login-popup">
+            <button class="close-btn" onclick="closePopup()"><i class="fa-solid fa-xmark"></i></button>
+            <div class="popup-header">
+                <img class="popup-logo" src="./assets/images/cafeIconeBackground.png" alt="">
+                <h3 class="popup-title">Bem vindo de volta!</h3>
+                <p class="popup-subtitle">Insira seus dados para acessar.</p>
+            </div>
+            <!-- Login options -->
+            <div class="login-btn-group">
+                <button class="login-option apple-btn"><img class="apple-img logo"
+                        src="./assets/icons/logotipo-da-apple.png" alt=""></button>
+                <button class="login-option google-btn"><img class="google-img logo" src="./assets/icons/google.png"
+                        alt=""></button>
+                <button class="login-option facebook-btn"><img class="facebook-img logo"
+                        src="./assets/icons/facebook.png" alt=""></button>
+            </div>
+            <div class="separation">
+                <div class="separation-line"></div>
+                <p class="separation-text">ou</p>
+                <div class="separation-line"></div>
+            </div>
+            <!-- Input area -->
+            <div class="input-section">
+                <div class="login-email input">
+                    <p class="login-email input-title">E-mail</p>
+                    <input type="email" name="email" placeholder="Escreva seu e-mail" id="email-input">
+                </div>
+                <div class="login-password input">
+                    <p class="login-password input-title">Senha</p>
+                    <input type="password" name="password" placeholder="Escreva sua senha" id="login-password-input">
+                </div>
+            </div>
+            <div class="login popup-options">
+                <div class="popup-chk">
+                    <input type="checkbox" name="checkbox" id="remember-password">
+                    <p class="checkbox-text">Lembrar-me</p>
+                </div>
+                <a class="forgot-password" href="#">Esqueci a senha</a>
+            </div>
+            <button class="login-btn popup-btn" id="login-btn">Fazer login</button>
+            <div class="singup-area">
+                <p class="singup-text">Ainda não tem uma conta?</p>
+                <a class="popup-link" href="#" onclick="openSingup()">Cadastre-se</a>
+            </div>
+        </div>
+        <!-- Sing-up Pop-up -->
+        <div class="singup-popup">
+            <button class="close-btn" onclick="closeSingup()"><i class="fa-solid fa-xmark"></i></button>
+            <div class="popup-header">
+                <img class="popup-logo" src="./assets/images/cafeIconeBackground.png" alt="">
+                <h3 class="popup-title">Criar uma conta</h3>
+                <div class="login-area">
+                    <p class="popup-subtitle">Já possui uma conta?</p>
+                    <a class="popup-link" href="#" onclick="openPopup()">Faça login</a>
+                </div>
+            </div>
+            <div class="input-section">
+                <!-- Full name -->
+                <div class="full-name input">
+                    <div class="name-area">
+                        <p class="firts-name input-title">Nome</p>
+                        <input type="name" name="name" placeholder="Nome" id="first-name-input">
+                    </div>
+                    <div class="name-area">
+                        <p class="last-name input-title">Sobrenome</p>
+                        <input type="text" name="text" placeholder="Sobrenome" id="last-name-input">
+                    </div>
+                </div>
+                <!-- E-mail -->
+                <div class="singup-email input">
+                    <p class="sinup-email input-title">E-mail</p>
+                    <input type="email" name="email" placeholder="Escreva seu e-mail" id="singup-email-input">
+                </div>
+                <!-- Phone -->
+                <div class="singup-phone input">
+                    <p class="sinup-phone input-title">Telefone</p>
+                    <div class="phone-input-area">
+                        <input class="ddd-input" type="text" name="postal-code" placeholder="&#127463; &#127479; +55"
+                            id="postal-code-iput">
+                        <input class="phone-input" type="text" name="phone" placeholder="Digite seu telefone com DDD"
+                            id="phone-iput">
+                    </div>
+                </div>
+                <!-- Passwords -->
+                <div class="password-area">
+                    <div class="singup-password input">
+                        <p class="sing-up-password input-title">Senha</p>
+                        <input type="password" name="password" placeholder="Escreva sua senha"
+                            id="singup-password-input">
+                    </div>
+                    <div class="singup-password input">
+                        <p class="sing-up-password input-title">Confirmar senha</p>
+                        <input type="password" name="password" placeholder="Confirme a senha"
+                            id="singup-password-input-2">
+                    </div>
+                </div>
+            </div>
+            <div class="singup popup-options">
+                <div class="popup-chk">
+                    <input type="checkbox" name="checkbox" id="accept-terms">
+                    <p class="checkbox-text">Concordo com os <span class="checkbox-span">Termos e Condições</span>
+                    </p>
+                </div>
+            </div>
+            <button class="singup-btn popup-btn" id="singup-btn">Cadastrar</button>
+        </div>
+    </section>
+    <!------------------------------------------------------ Hero ------------------------------------------------------->
+    <main class="hero">
+        <section class="background-container">
+            <img src="./assets/images/background.png" alt="background image" class="background-img">
+            <div class="page-area">
+                <div class="page-data">
+                    <h2 class="aboutUs-title">Sobre nós</h2>
+                    <p class="page-text">Um pouco da nossa história</p>
+                </div>
+                <p class="page-email">hello@coffeebrave.com</p>
+            </div>
+        </section>
+    </main>
+    <!------------------------------------------------------ Footer ------------------------------------------------------->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-enterprise">
+                <h2 class="footer-title">Empresa</h2>
+                <a class="footer-link" href="#">Sobre nós</a>
+            </div>
+            <div class="footer-resources">
+                <h2 class="footer-title">Recursos</h2>
+                <div class="footer-links">
+                    <a class="footer-link" href="#">Produto</a>
+                    <a class="footer-link" href="#">FAQ</a>
+                    <a class="footer-link" href="#">Contato</a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h2 class="footer-title">Redes</h2>
+                <div class="social 1">
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="social 2">
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+            <div class="logo-btn-group">
+                <div class="footer-btn-group">
+                    <button class="footer-btn discover-brave">Descubra o Coffee Brave</button>
+                    <button class="footer-btn buy-now">Comprar agora</button>
+                </div>
+                <a href="index.html"><img class="footer-logo" src="./assets/images/logoBrave.png" alt="Logo"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script/app.js"></script>
+
+</body>
+
+</html>
