@@ -64,6 +64,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 
+//************************************** HEADER SCROLL ********************************************\\
+window.onscroll = function () { myFunction() };
+
+        function myFunction() {
+            if (document.documentElement.scrollTop > 10) {
+                document.getElementById("headerBox").className = "test";
+            } else {
+                document.getElementById("headerBox").className = "";
+            }
+        }
 //************************************** LOGIN POP-UP ********************************************\\
 let loginPopup = document.querySelector(".login-popup");
 
