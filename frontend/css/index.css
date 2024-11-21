@@ -19,8 +19,8 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 80vh;
     width: 100%;
+    margin-bottom: 8vh;
 }
 
 .about-product-content {
@@ -185,6 +185,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    user-select: none;
 }
 
 .header-swiper {
@@ -193,7 +194,14 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
 
+.fa-link {
+    transition: transform 0.3s ease-in-out;
+}
+
+.fa-link:hover {
+    transform: scale(1.6);
 }
 
 .logo-swiper {
@@ -212,10 +220,10 @@
 /*==== Aboyut-page ====*/
 .about-section {
     width: 100%;
-    height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 8vh 0;
 }
 
 .about-zone {
@@ -264,15 +272,15 @@
 }
 
 .about-logo {
-    height: 60%;
+    width: 35%;
 }
 
 /*==== Distributor-page ====*/
 .distributor-section {
     width: 100%;
-    height: 70vh;
     display: flex;
     justify-content: center;
+    margin-bottom: 8vh;
 }
 
 .distribuidor-content {
@@ -297,6 +305,6 @@
 }
 
 .distributor-img {
-    height: 70%;
+    width: 45%;
     border-radius: 15px;
 }
