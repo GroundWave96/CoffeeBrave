@@ -124,6 +124,8 @@
     background-color: var(--dark-brown);
     color: var(--light-beige);
     font-weight: 600;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.5);
+    z-index: -1;
 }
 
 .tab-btn.active:hover {
@@ -183,4 +185,24 @@
 
 .certificates-topic span{
     font-weight: 500;
+}
+
+.methods-topic li{
+    list-style-type: decimal;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.methods-topic li:first-child {
+    margin-top: 0;
+}
+
+.tips-topic li{
+    list-style-type: disc;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.tips-topic li:first-child {
+    margin-top: 0;
 }
