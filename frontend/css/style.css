@@ -52,7 +52,7 @@ html {
     scroll-behavior: smooth;
 }
 
-/******************************* Header-page **********************************/
+/******************************* Header **********************************/
 
 header {
     position: sticky;
@@ -354,7 +354,7 @@ footer {
 .login-option {
     background-color: var(--white);
     border: solid 1px rgba(0, 0, 0, 0.5);
-    width: 80px;
+    width: 96px;
     height: 50px;
     border-radius: 10px;
 }
@@ -380,7 +380,7 @@ footer {
 
 .separation-line {
     height: 1px;
-    width: 120px;
+    width: 123px;
     background-color: var(--black);
     opacity: 0.3;
 }
