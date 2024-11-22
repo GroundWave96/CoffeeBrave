@@ -1,3 +1,4 @@
+/******************************* Hero-page ************************************/
 .background-container {
     position: relative;
     width: 100%;
@@ -56,6 +57,7 @@
 .contact-link {
     color: var(--light-beige);
     font-size: 1.4rem;
+    text-decoration: underline;
 }
 
 .contact-link:hover {
@@ -65,7 +67,7 @@
 }
 
 .fa-arrow-right {
-    margin-left: 10px;
+    margin-left: 15px;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -74,6 +76,8 @@
     font-weight: 300;
 }
 
+/******************************* FAQ-page ************************************/
+/*==== faq-btn ====*/
 .faq-data {
     width: 100%;
     display: flex;
@@ -82,11 +86,48 @@
 
 .faq-content {
     width: 70%;
+    display: flex;
+    flex-direction: row;
 }
 
-.faq-content p {
-    text-align: justify;
+.faq-buttons {
+    display: flex;
+    flex-direction: row;
+    width: 35%;
 }
+
+.btn-groups {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.faq-btn {
+    border: none;
+    height: 100px;
+    background-color: rgba(183, 139, 106, .6);
+    color: var(--dark-brown);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color .3s ease;
+    user-select: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 5px;
+}
+
+.faq-btn:hover {
+    background-color: var(--dark-brown);
+    color: var(--light-beige);
+}
+
+/*==== faq-content ====*/
 
 footer{
     margin-top: 8vh;
