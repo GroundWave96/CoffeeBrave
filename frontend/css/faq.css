@@ -77,7 +77,7 @@
 }
 
 /******************************* FAQ-page ************************************/
-/*==== faq-btn ====*/
+/*==== faq-btn-group ====*/
 .faq-data {
     width: 100%;
     display: flex;
@@ -88,6 +88,7 @@
     width: 70%;
     display: flex;
     flex-direction: row;
+    gap: 100px;
 }
 
 .faq-buttons {
@@ -127,8 +128,65 @@
     color: var(--light-beige);
 }
 
-/*==== faq-content ====*/
+/*==== faq-questions ====*/
+.faq-area {
+    width: 60%;
+}
 
-footer{
+.faq-area-title {
+    font-size: 2rem;
+    font-weight: 300;
+    transition: .5s all;
+}
+.faq-inside {
+    width: 100%;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.faq-line {
+    width: 100%;
+    height: 1px;
+    background-color: var(--black);
+    opacity: .3;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question {
+    font-size: 1.2rem;
+    font-weight: 400;
+    opacity: .8;
+}
+
+.faq-aswer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.aswer {
+    margin: 10px 0;
+    text-align: justify;
+    opacity: .8;
+}
+
+.faq-inside.active .faq-aswer {
+    max-height: 300px;
+}
+
+.faq-inside .fa-chevron-down {
+    transition: transform 0.3s ease;
+}
+
+.faq-inside.active .fa-chevron-down {
+    transform: rotate(180deg);
+}
+
+footer {
     margin-top: 8vh;
 }
