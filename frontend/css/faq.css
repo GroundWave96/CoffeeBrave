@@ -186,7 +186,3 @@
 .faq-inside.active .fa-chevron-down {
     transform: rotate(180deg);
 }
-
-footer {
-    margin-top: 8vh;
-}
