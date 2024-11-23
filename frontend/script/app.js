@@ -19,7 +19,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-
     //****************************************** LOGIN ***********************************************\\
     /*
     const loginBtn = document.querySelector("#login-btn")
@@ -76,6 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 //************************************** HEADER SCROLL ********************************************\\
+
 window.onscroll = function () { myFunction() };
 
 function myFunction() {
@@ -85,7 +85,9 @@ function myFunction() {
         document.getElementById("headerBox").className = "";
     }
 }
+
 //************************************** LOGIN POP-UP ********************************************\\
+
 let loginPopup = document.querySelector(".login-popup");
 
 function openPopup() {
@@ -110,44 +112,13 @@ function closeSingup() {
     singupPopup.classList.remove("open-Singup");
 }
 
-//************************************** SWIPER ********************************************\\
+//************************************** LANGUAGE-BTN ********************************************\\
 
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
-    centeredSlides: true,
-    spaceBetween: 30,
-    pagination: {
-        type: "fraction",
-    },
-    navigation: {
-        nextEl: ".prev",
-        prevEl: ".next",
-    },
-    on: {
-        slideChange: function () {
-            updateNavButtons();
-        },
-        reachEnd: function () {
-            updateNavButtons();
-        },
-        reachBeginning: function () {
-            updateNavButtons();
-        }
-    }
-});
+const btnGroup = document.querySelector('.language-select');
+    const languageOption = document.querySelector('.language-option');
 
-//* BTN OPACITY *\\
-function updateNavButtons() {
-    if (swiper.isEnd) {
-        document.querySelector('.prev').style.opacity = 0.3;
-    } else {
-        document.querySelector('.prev').style.opacity = 1;
-    }
-
-    if (swiper.isBeginning) {
-        document.querySelector('.next').style.opacity = 0.3;
-    } else {
-        document.querySelector('.next').style.opacity = 1;
-    }
-}
-updateNavButtons();
+    // Add a click event listener to the div
+    btnGroup.addEventListener('click', () => {
+      // Toggle the content between 'Pt' and 'En'
+      languageOption.textContent = languageOption.textContent === 'Pt' ? 'En' : 'Pt';
+    });

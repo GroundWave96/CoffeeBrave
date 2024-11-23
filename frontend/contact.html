@@ -103,11 +103,13 @@
             <div class="input-section">
                 <div class="login-email input">
                     <p class="login-email input-title">E-mail</p>
-                    <input type="email" name="email" placeholder="Escreva seu e-mail" id="email-input">
+                    <input type="email" name="email" placeholder="Escreva seu e-mail" id="email-input"
+                        autocomplete="on">
                 </div>
                 <div class="login-password input">
                     <p class="login-password input-title">Senha</p>
-                    <input type="password" name="password" placeholder="Escreva sua senha" id="login-password-input">
+                    <input type="password" name="password" placeholder="Escreva sua senha" id="login-password-input"
+                        autocomplete="on">
                 </div>
             </div>
             <div class="login popup-options">
@@ -139,26 +141,27 @@
                 <div class="full-name input">
                     <div class="name-area">
                         <p class="firts-name input-title">Nome</p>
-                        <input type="name" name="name" placeholder="Nome" id="first-name-input">
+                        <input type="text" name="name" placeholder="Nome" id="first-name-input" autocomplete="on">
                     </div>
                     <div class="name-area">
                         <p class="last-name input-title">Sobrenome</p>
-                        <input type="text" name="text" placeholder="Sobrenome" id="last-name-input">
+                        <input type="text" name="text" placeholder="Sobrenome" id="last-name-input" autocomplete="on">
                     </div>
                 </div>
                 <!-- E-mail -->
                 <div class="singup-email input">
                     <p class="sinup-email input-title">E-mail</p>
-                    <input type="email" name="email" placeholder="Escreva seu e-mail" id="singup-email-input">
+                    <input type="email" name="email" placeholder="Escreva seu e-mail" id="singup-email-input"
+                        autocomplete="on">
                 </div>
                 <!-- Phone -->
                 <div class="singup-phone input">
                     <p class="sinup-phone input-title">Telefone</p>
                     <div class="phone-input-area">
                         <input class="ddd-input" type="text" name="postal-code" placeholder="&#127463; &#127479; +55"
-                            id="postal-code-iput">
+                            id="postal-code-iput" autocomplete="on">
                         <input class="phone-input" type="text" name="phone" placeholder="Digite seu telefone com DDD"
-                            id="phone-iput">
+                            id="phone-iput" autocomplete="on">
                     </div>
                 </div>
                 <!-- Passwords -->
@@ -208,7 +211,8 @@
                             <label for="contact-input-name" class="name-input-title label-name">Nome</label><br>
                             <input type="name" class="input-text" name="name" placeholder="Escreva seu nome completo"
                                 id="contact-input-name" autocomplete="on" required><br>
-                            <label for="contact-input-type" class="type-input-title label-name">Tipo de consulta</label><br>
+                            <label for="contact-input-type" class="type-input-title label-name">Tipo de
+                                consulta</label><br>
                             <select name="type" id="contact-input-type" required>
                                 <option value="" disabled selected hidden>Escolha uma opção</option>
                                 <option value="login">Problemas com login ou cadastro</option>
@@ -229,11 +233,12 @@
                             <input type="email" class="input-text" name="email" placeholder="Escreva seu E-mail"
                                 id="contact-input-email" autocomplete="on" required><br>
                             <label for="contact-input-phone" class="phone-input-title label-name">Celular</label><br>
-                            <input type="tel" class="input-text" name="phone" placeholder="Escreva seu Número de Celular"
-                                id="contact-input-phone" autocomplete="on" required><br>
+                            <input type="tel" class="input-text" name="phone"
+                                placeholder="Escreva seu Número de Celular" id="contact-input-phone" autocomplete="on"
+                                required><br>
                             <label for="message-input-phone" class="message-input-title label-name">Mensagem</label><br>
-                            <textarea name="message" placeholder="Escreva sua Mensagem"
-                                id="message-input-phone" required></textarea><br>
+                            <textarea name="message" placeholder="Escreva sua Mensagem" id="message-input-phone"
+                                required></textarea><br>
 
                             <input type="submit" class="bnt-submit" value="Enviar">
                         </form>
@@ -293,20 +298,24 @@
             <div class="footer-links">
                 <h2 class="footer-title">Redes</h2>
                 <div class="social 1">
-                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a target="_blank" href="https://www.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
                 </div>
                 <div class="social 2">
-                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
-                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    <a target="_blank" href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                    <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a target="_blank" href="https://www.tiktok.com/"><i class="fa-brands fa-tiktok"></i></a>
                 </div>
             </div>
             <div class="logo-btn-group">
                 <div class="footer-btn-group">
-                    <button class="footer-btn discover-brave">Descubra o Coffee Brave</button>
-                    <button class="footer-btn buy-now">Comprar agora</button>
+                    <button class="footer-btn discover-brave" onclick="window.location.href='aboutUs.html';">
+                        Descubra o Coffee Brave
+                    </button>
+                    <button class="footer-btn buy-now" onclick="window.location.href='product.html';">
+                        Comprar agora
+                    </button>
                 </div>
                 <a href="index.html"><img class="footer-logo" src="./assets/images/logoBrave.png" alt="Logo"></a>
             </div>
