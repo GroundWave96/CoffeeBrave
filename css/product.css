@@ -23,6 +23,8 @@
 
 .text-overlay {
     position: absolute;
+    display: flex;
+    flex-direction: column;
     bottom: 45%;
     left: 15%;
     color: var(--light-brown);
@@ -47,6 +49,30 @@
 
 .text-overlay p {
     text-align: justify;
+    margin-bottom: 30px;
+}
+
+.btn-comprar {
+    width: 250px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: solid 2px;
+    background-color: var(--dark-brown);
+    border-color: var(--dark-brown);
+    color: var(--light-beige);
+    transition: .5s all;
+}
+
+.btn-comprar:hover {
+    border: solid 2px;
+    font-weight: 600;
+    background-color: var(--light-brown);
+    border-color: var(--light-brown);
+    color: var(--dark-brown);
 }
 
 .icons {
