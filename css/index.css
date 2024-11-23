@@ -24,6 +24,7 @@
     transition: opacity 5s;
     animation: fly 2s ease-in-out infinite;
     padding: 2rem;
+    user-select: none;
 }
 
 .background-clip {

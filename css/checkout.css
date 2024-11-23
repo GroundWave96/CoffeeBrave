@@ -1,3 +1,21 @@
 header {
     background: rgba(0, 0, 0, 0);
 }
+
+.hero{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+}
+
+.checkout-data {
+    width: 70%;
+}
+
+.checkout-title{
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--dark-brown);
+    margin-bottom: 1rem;
+}
