@@ -102,9 +102,10 @@
 
 .btn-section:hover {
     border: solid 2px;
-    background-color: var(--background-grey);
-    border-color: var(--dark-brown);
+    background-color: var(--light-brown);
+    border-color: var(--light-brown);
     color: var(--dark-brown);
+    font-weight: 600;
 }
 
 .product-img-area {

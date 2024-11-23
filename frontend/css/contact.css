@@ -132,7 +132,66 @@
 .btn-faq:hover {
     border: solid 2px;
     font-weight: 600;
-    background-color: white;
+    background-color: var(--light-brown);
+    border-color: var(--light-brown);
+    color: var(--dark-brown);
+}
+
+.form-title {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 10px ;
+}
+
+.label-name {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.contact-input .input-text, select, textarea{
+    margin-bottom: 15px;
+    margin-top: 5px;
+    width: 75%;
+    background-color: var(--background-grey);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+}
+
+.contact-input input, select {
+    height: 2.5rem;
+    padding: 0 1rem;
+}
+
+.contact-input select {
+    height: 2.5rem;
+    padding: 0 1rem;
+    color: #6e6e6e;
+}
+
+.contact-input textarea {
+    height: 8.5rem;
+    padding: 1rem;
+    resize: vertical;
+}
+
+.bnt-submit {
+    width: 35%;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: solid 2px;
+    background-color: var(--dark-brown);
     border-color: var(--dark-brown);
+    color: var(--light-beige);
+    transition: .5s all;
+}
+
+.bnt-submit:hover {
+    font-weight: 600;
+    background-color: var(--light-brown);
+    border-color: var(--light-brown);
     color: var(--dark-brown);
 }

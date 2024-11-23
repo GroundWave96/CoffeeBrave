@@ -397,7 +397,7 @@ footer {
 }
 
 .popup-options {
-    margin: 10px 0;
+    margin-bottom: 10px;
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -475,6 +475,10 @@ footer {
     gap: 10px;
 }
 
+.login-area {
+    margin-bottom: 10px;
+}
+
 .popup-link {
     transition: color 0.3s ease, text-decoration 0.3s ease;
     font-weight: 500;
@@ -490,7 +494,7 @@ footer {
     visibility: hidden;
     transform: scale(0);
     width: 400px;
-    height: 800px;
+    height: 750px;
     background-color: var(--white);
     border-radius: 20px;
     text-align: center;
@@ -505,6 +509,14 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 20px;
+}
+
+.singup-password:first-child{
+    margin-bottom: 20px;
+}
+
+.password-area {
+    margin-bottom: 10px;
 }
 
 .open-Singup {
@@ -536,8 +548,4 @@ footer {
 
 .phone-input {
     width: 70%;
-}
-
-.singup-password {
-    margin-bottom: 20px;
 }

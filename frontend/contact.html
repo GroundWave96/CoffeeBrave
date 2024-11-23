@@ -203,6 +203,43 @@
                     <h2 class="form-title">
                         Entre em Contato
                     </h2>
+                    <div class="contact-input">
+                        <form action="">
+                            <label for="contact-input-name" class="name-input-title label-name">Nome</label><br>
+                            <input type="name" class="input-text" name="name" placeholder="Escreva seu nome completo"
+                                id="contact-input-name" autocomplete="on" required><br>
+                            <label for="contact-input-type" class="type-input-title label-name">Tipo de consulta</label><br>
+                            <select name="type" id="contact-input-type" required>
+                                <option value="" disabled selected hidden>Escolha uma opção</option>
+                                <option value="login">Problemas com login ou cadastro</option>
+                                <option value="pagamento">Dúvidas sobre métodos de pagamento</option>
+                                <option value="finalizacao">Problemas na finalização do pedido</option>
+                                <option value="produto">Informações sobre o café</option>
+                                <option value="preparo">Métodos de preparo</option>
+                                <option value="orcamento">Solicitação de orçamento para revenda</option>
+                                <option value="revenda">Condições para revenda</option>
+                                <option value="prazo">Dúvidas sobre prazos de entrega</option>
+                                <option value="fiscal">Informações fiscais e notas fiscais</option>
+                                <option value="feedback">Feedback sobre o site ou produto</option>
+                                <option value="reclamecao">Reclamações gerais</option>
+                                <option value="sugestao">Sugestões de melhoria</option>
+                                <option value="outro">Outras dúvidas</option>
+                            </select><br>
+                            <label for="contact-input-email" class="name-input-title label-name">E-mail</label><br>
+                            <input type="email" class="input-text" name="email" placeholder="Escreva seu E-mail"
+                                id="contact-input-email" autocomplete="on" required><br>
+                            <label for="contact-input-phone" class="phone-input-title label-name">Celular</label><br>
+                            <input type="tel" class="input-text" name="phone" placeholder="Escreva seu Número de Celular"
+                                id="contact-input-phone" autocomplete="on" required><br>
+                            <label for="message-input-phone" class="message-input-title label-name">Mensagem</label><br>
+                            <textarea name="message" placeholder="Escreva sua Mensagem"
+                                id="message-input-phone" required></textarea><br>
+
+                            <input type="submit" class="bnt-submit" value="Enviar">
+                        </form>
+                    </div>
+
+
                 </div>
                 <div class="contact-cards">
                     <div class="card card-faq">
