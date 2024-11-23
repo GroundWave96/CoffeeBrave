@@ -20,7 +20,7 @@
 .scroll-about {
     text-decoration: none;
     color: var(--light-brown);
-    font-size: 1.5rem;
+    font-size: 2rem;
     transition: opacity 5s;
     animation: fly 2s ease-in-out infinite;
     padding: 2rem;
@@ -40,6 +40,7 @@
     justify-content: center;
     width: 100%;
     margin-bottom: 8vh;
+    scroll-margin-top: 16vh;
 }
 
 .about-product-content {
