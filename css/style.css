@@ -293,6 +293,16 @@ footer {
     color: var(--light-brown);
 }
 
+.logo-btn-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-btn-group {
+    display: flex;
+    gap: 10px;
+}
+
 .footer-logo {
     width: 15svw;
     float: right;
@@ -550,4 +560,54 @@ footer {
 
 .phone-input {
     width: 70%;
+}
+
+@media (max-width: 1550px) {
+    .footer-btn-group {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1320px) {
+    .footer-enterprise {
+        display: none;
+    }
+}
+
+@media (max-width: 1010px) {
+    .footer-content {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    footer {
+        height: auto;
+        padding: 30px 0;
+        text-align: center;
+    }
+
+    .social {
+        justify-content: center;
+    }
+
+    .logo-btn-group {
+        align-items: center;
+
+    }
+
+    .footer-btn-group{
+        width: 60%;
+    }
+
+    .footer-logo {
+        width: 50%;
+        float: none;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 535px) {
+    .footer-btn-group {
+        width: 90%;;
+    }
 }
