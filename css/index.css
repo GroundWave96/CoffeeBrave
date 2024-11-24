@@ -332,6 +332,8 @@
     }
 }
 
+/*----------- Video -----------*/
+
 @media (min-aspect-ratio:16/9) {
     .background-clip {
         width: 100%;
@@ -343,5 +345,17 @@
     .background-clip {
         width: auto;
         height: 100%;
+    }
+}
+
+/*----------- Spbre nos -----------*/
+
+@media (max-width: 1200px) {
+    .about-logo {
+        display: none;
+    }
+
+    .btn-about-page {
+        width: 90%;
     }
 }
