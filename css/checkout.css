@@ -20,6 +20,10 @@ header {
     margin-bottom: 1rem;
 }
 
+.bar-edit-btn a{
+    color: var(--dark-brown);
+}
+
 .checkout-cards {
     display: flex;
     justify-content: space-between;
@@ -76,6 +80,17 @@ header {
 }
 
 .card-content .fa-plus{
+    color: var(--dark-brown);
+}
+
+.card-content a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-content a p {
     color: var(--dark-brown);
 }
 
