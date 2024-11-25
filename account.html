@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Importing CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/account.css">
+    <!-- Importing FontAwesome -->
+    <script src="https://kit.fontawesome.com/878f969c90.js" crossorigin="anonymous"></script>
+    <!-- Importing Unicons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- Importing GoogleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Importing Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Importing GoogleIcons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Coffee Brave</title>
+
+</head>
+
+<body>
+    <!---------------------------------------------------- Header ----------------------------------------------------->
+    <header id="headerBox">
+        <div class="header-content">
+            <div class="btn-group">
+                <button class="header-btn language-select">
+                    <span class="btn-icon material-icons">language</span>
+                    <span class="language-option">Pt</span>
+                </button>
+                <button class="header-btn sing-up" onclick="openPopup()">
+                    <span class="btn-icon material-icons">person</span>
+                </button>
+            </div>
+            <div class="header-logo">
+                <a href="index.html">
+                    <img src="./assets/images/logoBrave.png" alt="logo">
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">
+                        <i class="fa-solid fa-house"></i>
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="faq.html" class="nav-link">
+                        <i class="fa-solid fa-question"></i>
+                        FAQ
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="aboutUs.html" class="nav-link">
+                        <i class="fa-solid fa-users-viewfinder"></i>
+                        Sobre nós
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">
+                        <i class="fa-solid fa-message"></i>
+                        Contato
+                    </a>
+                </li>
+            </ul>
+            <div class="menu-icon">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+        </div>
+    </header>
+    <!------------------------------------------------ Pop-up Area -------------------------------------------------->
+    <!-- Login Pop-up -->
+    <section class="popup-area">
+        <div class="login-popup">
+            <button class="close-btn" onclick="closePopup()"><i class="fa-solid fa-xmark"></i></button>
+            <div class="popup-header">
+                <img class="popup-logo" src="./assets/images/cafeIconeBackground.png" alt="">
+                <h3 class="popup-title">Bem vindo de volta!</h3>
+                <p class="popup-subtitle">Insira seus dados para acessar.</p>
+            </div>
+            <!-- Login options -->
+            <div class="login-btn-group">
+                <button class="login-option apple-btn"><img class="apple-img logo"
+                        src="./assets/icons/logotipo-da-apple.png" alt=""></button>
+                <button class="login-option google-btn"><img class="google-img logo" src="./assets/icons/google.png"
+                        alt=""></button>
+                <button class="login-option facebook-btn"><img class="facebook-img logo"
+                        src="./assets/icons/facebook.png" alt=""></button>
+            </div>
+            <div class="separation">
+                <div class="separation-line"></div>
+                <p class="separation-text">ou</p>
+                <div class="separation-line"></div>
+            </div>
+            <!-- Input area -->
+            <div class="input-section">
+                <div class="login-email input">
+                    <p class="login-email input-title">E-mail</p>
+                    <input type="email" name="email" placeholder="Escreva seu e-mail" id="email-input">
+                </div>
+                <div class="login-password input">
+                    <p class="login-password input-title">Senha</p>
+                    <input type="password" name="password" placeholder="Escreva sua senha" id="login-password-input">
+                </div>
+            </div>
+            <div class="login popup-options">
+                <div class="popup-chk">
+                    <input type="checkbox" name="checkbox" id="remember-password">
+                    <p class="checkbox-text">Lembrar-me</p>
+                </div>
+                <a class="forgot-password" href="#">Esqueci a senha</a>
+            </div>
+            <button class="login-btn popup-btn" id="login-btn">Fazer login</button>
+            <div class="singup-area">
+                <p class="singup-text">Ainda não tem uma conta?</p>
+                <a class="popup-link" href="#" onclick="openSingup()">Cadastre-se</a>
+            </div>
+        </div>
+        <!-- Sing-up Pop-up -->
+        <div class="singup-popup">
+            <button class="close-btn" onclick="closeSingup()"><i class="fa-solid fa-xmark"></i></button>
+            <div class="popup-header">
+                <img class="popup-logo" src="./assets/images/cafeIconeBackground.png" alt="">
+                <h3 class="popup-title">Criar uma conta</h3>
+                <div class="login-area">
+                    <p class="popup-subtitle">Já possui uma conta?</p>
+                    <a class="popup-link" href="#" onclick="openPopup()">Faça login</a>
+                </div>
+            </div>
+            <div class="input-section">
+                <!-- Full name -->
+                <div class="full-name input">
+                    <div class="name-area">
+                        <p class="firts-name input-title">Nome</p>
+                        <input type="name" name="name" placeholder="Nome" id="first-name-input">
+                    </div>
+                    <div class="name-area">
+                        <p class="last-name input-title">Sobrenome</p>
+                        <input type="text" name="text" placeholder="Sobrenome" id="last-name-input">
+                    </div>
+                </div>
+                <!-- E-mail -->
+                <div class="singup-email input">
+                    <p class="sinup-email input-title">E-mail</p>
+                    <input type="email" name="email" placeholder="Escreva seu e-mail" id="singup-email-input">
+                </div>
+                <!-- Phone -->
+                <div class="singup-phone input">
+                    <p class="sinup-phone input-title">Telefone</p>
+                    <div class="phone-input-area">
+                        <input class="ddd-input" type="text" name="postal-code" placeholder="&#127463; &#127479; +55"
+                            id="postal-code-iput">
+                        <input class="phone-input" type="text" name="phone" placeholder="Digite seu telefone com DDD"
+                            id="phone-iput">
+                    </div>
+                </div>
+                <!-- Passwords -->
+                <div class="password-area">
+                    <div class="singup-password input">
+                        <p class="sing-up-password input-title">Senha</p>
+                        <input type="password" name="password" placeholder="Escreva sua senha"
+                            id="singup-password-input">
+                    </div>
+                    <div class="singup-password input">
+                        <p class="sing-up-password input-title">Confirmar senha</p>
+                        <input type="password" name="password" placeholder="Confirme a senha"
+                            id="singup-password-input-2">
+                    </div>
+                </div>
+            </div>
+            <div class="singup popup-options">
+                <div class="popup-chk">
+                    <input type="checkbox" name="checkbox" id="accept-terms">
+                    <p class="checkbox-text">Concordo com os <span class="checkbox-span">Termos e Condições</span>
+                    </p>
+                </div>
+            </div>
+            <button class="singup-btn popup-btn" id="singup-btn">Cadastrar</button>
+        </div>
+    </section>
+    <!------------------------------------------------------ Hero ------------------------------------------------------->
+    <main class="hero">
+        <section class="account-section">
+            <div class="account-content">
+                <aside class="account-menu">
+                    <div class="account-title">
+                        <h3>Olá,</h3>
+                        <h2 class="section-title">USUÁRIO!</h2>
+                        <div class="account-menu-items">
+                            <a href="#" class="menu-item" data-section="dados-pessoais">Dados pessoais</a>
+                            <a href="#" class="menu-item" data-section="endereco">Endereço</a>
+                            <a href="#" class="menu-item" data-section="pedidos">Pedidos</a>
+                            <a href="#" class="menu-item" data-section="cartoes">Cartões</a>
+                            <a href="#" class="menu-item" data-section="sair">Sair</a>
+                        </div>
+                    </div>
+                </aside>
+                <div class="account-data-area">
+                    <h3 id="account-title">Dados pessoais</h3>
+                    <div class="account-data">
+                        <!-- Form inicial para dados pessoais -->
+                        <form action="" id="dados-pessoais" class="input-area active">
+                            <label for="fname">Nome</label>
+                            <input type="text" id="fname" autocomplete="" placeholder="Primeiro nome"><br>
+
+                            <label for="lname">Sobrenome</label>
+                            <input type="text" id="lname" autocomplete="" placeholder="Último nome"><br>
+
+                            <label for="cpf">CPF</label>
+                            <input type="text" id="cpf" autocomplete="" placeholder="000.000.000-00"><br>
+
+                            <label for="phone">Telefone</label>
+                            <input type="text" id="phone" autocomplete="" placeholder="(00) 00000 - 0000"><br>
+
+                            <label for="gender">Gênero</label>
+                            <select name="gender" id="gender">
+                                <option value="masculino">Masculino</option>
+                                <option value="feminino">Feminino</option>
+                                <option value="outro">Outro</option>
+                            </select><br>
+
+                            <label for="date">Data de nascimento</label>
+                            <input type="date" id="date" autocomplete=""><br>
+
+                            <input type="submit" class="bnt-submit" value="Salvar">
+                        </form>
+
+                        <!-- Form para endereço -->
+                        <form action="" id="endereco" class="input-area hidden">
+                            <label for="street">Rua</label>
+                            <input type="text" id="street" autocomplete="" placeholder="Nome da rua"><br>
+
+                            <label for="city">Cidade</label>
+                            <input type="text" id="city" autocomplete="" placeholder="Cidade"><br>
+
+                            <label for="state">Estado</label>
+                            <input type="text" id="state" autocomplete="" placeholder="Estado"><br>
+
+                            <label for="zipcode">CEP</label>
+                            <input type="text" id="zipcode" autocomplete="" placeholder="00000-000"><br>
+
+                            <input type="submit" class="bnt-submit" value="Salvar">
+                        </form>
+
+                        <!-- Form para pedidos -->
+                        <form action="" id="pedidos" class="input-area hidden">
+                            <p>Você ainda não fez nenhum pedido.</p>
+                        </form>
+
+                        <!-- Form para cartões -->
+                        <form action="" id="cartoes" class="input-area hidden">
+                            <label for="card-name">Nome do cartão</label>
+                            <input type="text" id="card-name" autocomplete=""><br>
+
+                            <label for="card-number">Número do cartão</label>
+                            <input type="text" id="card-number" autocomplete=""><br>
+
+                            <label for="expiry-date">Data de validade</label>
+                            <input type="text" id="expiry-date" autocomplete=""><br>
+
+                            <label for="card-cvv">CVV</label>
+                            <input type="text" id="card-cvv" autocomplete=""><br>
+
+                            <input type="submit" class="bnt-submit" value="Salvar">
+                        </form>
+
+                        <!-- Seção de sair -->
+                        <form action="" id="sair" class="input-area hidden">
+                            <p>Você saiu da conta.</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!------------------------------------------------------ Footer ------------------------------------------------------->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-enterprise">
+                <h2 class="footer-title">Empresa</h2>
+                <a class="footer-link" href="aboutUs.html">Sobre nós</a>
+            </div>
+            <div class="footer-resources">
+                <h2 class="footer-title">Recursos</h2>
+                <div class="footer-links">
+                    <a class="footer-link" href="product.html">Produto</a>
+                    <a class="footer-link" href="faq.html">FAQ</a>
+                    <a class="footer-link" href="contact.html">Contato</a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h2 class="footer-title">Redes</h2>
+                <div class="social 1">
+                    <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="social 2">
+                    <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.tiktok.com/"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+            <div class="logo-btn-group">
+                <div class="footer-btn-group">
+                    <button class="footer-btn discover-brave" onclick="window.location.href='aboutUs.html';">
+                        Descubra o Coffee Brave
+                    </button>
+                    <button class="footer-btn buy-now" onclick="window.location.href='product.html';">
+                        Comprar agora
+                    </button>
+                </div>
+                <a href="index.html"><img class="footer-logo" src="./assets/images/logoBrave.png" alt="Logo"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script/app.js"></script>
+
+    <script>
+        const menuItems = document.querySelectorAll('.menu-item');
+        const accountTitle = document.getElementById('account-title');
+        const forms = document.querySelectorAll('.input-area');
+
+        menuItems.forEach(item => {
+            item.addEventListener('click', event => {
+                event.preventDefault();
+                const section = item.dataset.section;
+
+                // Atualiza o título
+                accountTitle.textContent = item.textContent;
+
+                // Esconde todos os formulários e mostra o selecionado
+                forms.forEach(form => form.classList.add('hidden'));
+                document.getElementById(section).classList.remove('hidden');
+            });
+        });
+    </script>
+
+</body>
+
+</html>
