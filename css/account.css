@@ -101,7 +101,7 @@ label {
     color: var(--dark-brown);
 }
 
-input,
+.account-data input,
 select {
     width: 100%;
     padding: 10px;
